@@ -27,7 +27,7 @@ public class Ex01HungryGarfield {
 
         DecimalFormat df = new DecimalFormat("0.00");
         BigDecimal moneyLeft = money.subtract(totalCost);
-        if (moneyLeft.compareTo(BigDecimal.ZERO) >= 0d) {
+        if (moneyLeft.compareTo(BigDecimal.ZERO) >= 0) {
             System.out.printf("Garfield is well fed, John is awesome. Money left: $%s.%n", df.format(moneyLeft));
         } else {
             System.out.printf("Garfield is hungry. John is a badass. Money needed: $%s.%n", df.format(moneyLeft.abs()));
