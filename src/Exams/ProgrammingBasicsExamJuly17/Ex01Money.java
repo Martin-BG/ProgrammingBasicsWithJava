@@ -18,23 +18,20 @@ public class Ex01Money {
         double moneyInEuro = moneyInLeva / 1.95d;
         moneyInEuro *= (100.0d - commission) / 100.0d;
 
-        // Hacks to make output C#-like for 100/100 score in Judge
-        int moneyInEuroInt = (int)moneyInEuro;
-        int digits = 0;
+        System.out.println(doubleToStringCSharpLike(moneyInEuro));
+    }
 
-        if(moneyInEuroInt == 0)
-        {
-            digits = -1;
-        } else {
-            while (moneyInEuroInt / 10 > 0) {
-                digits++;
-                moneyInEuroInt /= 10;
-            }
+    private static String doubleToStringCSharpLike(double value) {
+        // Hacks to make output C#-like for 100/100 score in Judge
+        int digits = 15;
+
+        if (value >= 1.0d) {
+            digits -= Double.toString(value).split("[.,]")[0].length();
         }
 
-        String format = "0." + new String(new char[14-digits]).replace("\0", "#");
+        String format = "0." + new String(new char[digits]).replace("\0", "#");
         DecimalFormat df = new DecimalFormat(format);
 
-        System.out.println(df.format(moneyInEuro));
+        return df.format(value);
     }
 }
