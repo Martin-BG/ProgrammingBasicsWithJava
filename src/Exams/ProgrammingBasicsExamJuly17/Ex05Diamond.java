@@ -3,7 +3,7 @@ package Exams.ProgrammingBasicsExamJuly17;
 import java.util.Scanner;
 
 /**
- * Created by Martin on 2/26/2017.
+ * https://judge.softuni.bg/Contests/Practice/Index/233#4
  */
 public class Ex05Diamond {
     public static void main(String[] args) {

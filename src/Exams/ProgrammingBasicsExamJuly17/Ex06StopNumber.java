@@ -3,7 +3,7 @@ package Exams.ProgrammingBasicsExamJuly17;
 import java.util.Scanner;
 
 /**
- * Created by Martin on 23.02.2017.
+ * https://judge.softuni.bg/Contests/Practice/Index/233#5
  */
 public class Ex06StopNumber {
     public static void main(String[] args) {
