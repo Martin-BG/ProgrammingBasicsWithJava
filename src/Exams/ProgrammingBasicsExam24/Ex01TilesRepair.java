@@ -28,10 +28,9 @@ public class Ex01TilesRepair {
     }
 
     private static String doubleToStringCSharpLike(double value) {
-        // Hacks to make output C#-like for 100/100 score in Judge
         int digits = 15;
 
-        if (value >= 1.0d) {
+        if (Math.abs(value) >= 1.0d) {
             digits -= Double.toString(value).split("[.,]")[0].length();
         }
 
