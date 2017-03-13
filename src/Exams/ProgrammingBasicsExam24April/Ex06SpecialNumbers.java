@@ -1,9 +1,9 @@
-package Exams.ProgrammingBasicsExam24;
+package Exams.ProgrammingBasicsExam24April;
 
 import java.util.Scanner;
 
 /**
- * Created by Martin on 23.02.2017.
+ * https://judge.softuni.bg/Contests/Practice/Index/181#5
  */
 public class Ex06SpecialNumbers {
     public static void main(String[] args) {

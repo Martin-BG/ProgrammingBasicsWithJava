@@ -1,9 +1,9 @@
-package Exams.ProgrammingBasicsExam24;
+package Exams.ProgrammingBasicsExam24April;
 
 import java.util.Scanner;
 
 /**
- * Created by Martin on 2/26/2017.
+ * https://judge.softuni.bg/Contests/Practice/Index/181#4
  */
 public class Ex05Stop {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Exams.ProgrammingBasicsExam24;
+package Exams.ProgrammingBasicsExam24April;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
