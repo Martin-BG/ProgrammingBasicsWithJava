@@ -23,24 +23,22 @@ public class Ex04WinningTicketRegExSolution {
                 continue;
             }
 
-            if (ticket.length() == 20) {
-                Matcher firstMatch = r.matcher(ticket.substring(0, 10));
-                Matcher secondMatch = r.matcher(ticket.substring(10));
+            Matcher firstMatch = r.matcher(ticket.substring(0, 10));
+            Matcher secondMatch = r.matcher(ticket.substring(10));
 
-                if (firstMatch.find() && secondMatch.find()
-                        && (firstMatch.group().charAt(0) == secondMatch.group().charAt(0))) {
+            if (firstMatch.find() && secondMatch.find()
+                    && (firstMatch.group().charAt(0) == secondMatch.group().charAt(0))) {
 
-                    char winChar = firstMatch.group().charAt(0);
-                    int longestSequence = Math.min(firstMatch.group().length(), secondMatch.group().length());
+                char winChar = firstMatch.group().charAt(0);
+                int longestSequence = Math.min(firstMatch.group().length(), secondMatch.group().length());
 
-                    if (longestSequence == 10) {
-                        System.out.printf("ticket \"%s\" - %d%c Jackpot!%n", ticket, longestSequence, winChar);
-                    } else {
-                        System.out.printf("ticket \"%s\" - %d%c%n", ticket, longestSequence, winChar);
-                    }
+                if (longestSequence == 10) {
+                    System.out.printf("ticket \"%s\" - %d%c Jackpot!%n", ticket, longestSequence, winChar);
                 } else {
-                    System.out.printf("ticket \"%s\" - no match%n", ticket);
+                    System.out.printf("ticket \"%s\" - %d%c%n", ticket, longestSequence, winChar);
                 }
+            } else {
+                System.out.printf("ticket \"%s\" - no match%n", ticket);
             }
         }
     }
