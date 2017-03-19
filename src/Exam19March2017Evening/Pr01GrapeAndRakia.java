@@ -13,7 +13,7 @@ public class Pr01GrapeAndRakia {
         double kgPerM2 = Double.parseDouble(scanner.nextLine());
         double fira = Double.parseDouble(scanner.nextLine());
 
-        double grape = (area * kgPerM2 - fira);
+        double grape = area * kgPerM2 - fira;
 
         System.out.printf("%.2f%n", grape * 0.45d / 7.5d * 9.8d);
         System.out.printf("%.2f%n", grape * 0.55d * 1.5d);
