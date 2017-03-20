@@ -3,6 +3,9 @@ package Exams.ProgrammingBasicsExamMarch18;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
+/**
+ * https://judge.softuni.bg/Contests/Practice/Index/480#3
+ */
 public class Ex04GameOfIntervals {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
