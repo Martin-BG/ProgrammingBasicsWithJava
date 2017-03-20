@@ -3,7 +3,7 @@ package Exam19March2017Evening;
 import java.util.Scanner;
 
 /**
- * Exam
+ * https://judge.softuni.bg/Contests/Practice/Index/501#3
  */
 public class Pr04Bills {
     public static void main(String[] args) {

@@ -3,7 +3,7 @@ package Exam19March2017Evening;
 import java.util.Scanner;
 
 /**
- * Exam
+ * https://judge.softuni.bg/Contests/Practice/Index/501#1
  */
 public class Pr02Styrofoam {
     public static void main(String[] args) {
@@ -11,21 +11,21 @@ public class Pr02Styrofoam {
 
         double budget = Double.parseDouble(scanner.nextLine());
         double area = Double.parseDouble(scanner.nextLine());
-        double windowsArea = Integer.parseInt(scanner.nextLine()) * 2.4d;
+        double windowsArea = Integer.parseInt(scanner.nextLine());
         double styrofoamPacketM2 = Double.parseDouble(scanner.nextLine());
         double styrofoamPacketPrice = Double.parseDouble(scanner.nextLine());
 
-        double workArea = (area - windowsArea) * 1.1d;
+        double workArea = (area - windowsArea * 2.4d) * 1.1d;
 
         int packetsNeeded = (int) Math.ceil(workArea / styrofoamPacketM2);
 
-        double price = packetsNeeded * styrofoamPacketPrice;
+        double cost = packetsNeeded * styrofoamPacketPrice;
 
-        if (budget >= price) {
-            System.out.printf("Spent: %.2f%n", price);
-            System.out.printf("Left: %.2f%n", budget - price);
+        if (budget >= cost) {
+            System.out.printf("Spent: %.2f%n", cost);
+            System.out.printf("Left: %.2f%n", budget - cost);
         } else {
-            System.out.printf("Need more: %.2f%n", price - budget);
+            System.out.printf("Need more: %.2f%n", cost - budget);
         }
     }
 }
