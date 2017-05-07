@@ -29,7 +29,8 @@ public class Ex03SchoolCamp {
                         sport = "Gymnastics";
                     }
                 }
-            } break;
+            }
+            break;
             case "Spring": {
                 if ("mixed".equals(groupType)) {
                     cost = 9.5d;
@@ -42,7 +43,8 @@ public class Ex03SchoolCamp {
                         sport = "Athletics";
                     }
                 }
-            } break;
+            }
+            break;
             default: {
                 if ("mixed".equals(groupType)) {
                     cost = 20d;
@@ -55,7 +57,8 @@ public class Ex03SchoolCamp {
                         sport = "Volleyball";
                     }
                 }
-            } break;
+            }
+            break;
         }
 
         cost *= nights;

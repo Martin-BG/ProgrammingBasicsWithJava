@@ -14,7 +14,7 @@ public class Ex05Crown {
         int width = 2 * N - 1;
 
         String headerLine = "@" + repeatStr(" ", N - 2) + "@" + repeatStr(" ", N - 2) + "@";
-        String secondLine =  "**" + repeatStr(" ", N - 3) + "*" + repeatStr(" ", N - 3) + "**";
+        String secondLine = "**" + repeatStr(" ", N - 3) + "*" + repeatStr(" ", N - 3) + "**";
 
         System.out.println(headerLine);
         System.out.println(secondLine);
@@ -25,14 +25,14 @@ public class Ex05Crown {
                 centerSegment = repeatStr(".", 1 + 2 * i);
             } else {
                 centerSegment = repeatStr("*", (width - N - 4 - 1) / 2) + "."
-                                + repeatStr("*", (width - N - 4 - 1) / 2);
+                        + repeatStr("*", (width - N - 4 - 1) / 2);
             }
             if (i < N / 2 - 2) {
                 centerSegment = "*" + centerSegment + "*";
             }
             middleLine = "*" + repeatStr(".", 1 + i) + "*" + repeatStr(" ", N - 5 - i * 2)
-                        + centerSegment + repeatStr(" ", N - 5 - i * 2) + "*"
-                        + repeatStr(".", 1 + i) + "*";
+                    + centerSegment + repeatStr(" ", N - 5 - i * 2) + "*"
+                    + repeatStr(".", 1 + i) + "*";
 
             System.out.println(middleLine);
         }

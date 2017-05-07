@@ -9,7 +9,7 @@ public class Ex02ToyShop {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        double trip_cost = Double.parseDouble(scanner.nextLine());
+        double tripCost = Double.parseDouble(scanner.nextLine());
         double puzzles = Double.parseDouble(scanner.nextLine());
         double dolls = Double.parseDouble(scanner.nextLine());
         double bears = Double.parseDouble(scanner.nextLine());
@@ -24,10 +24,10 @@ public class Ex02ToyShop {
 
         income *= 0.9d;
 
-        if (income >= trip_cost) {
-            System.out.printf("Yes! %.2f lv left.", income - trip_cost);
+        if (income >= tripCost) {
+            System.out.printf("Yes! %.2f lv left.", income - tripCost);
         } else {
-            System.out.printf("Not enough money! %.2f lv needed.", trip_cost - income);
+            System.out.printf("Not enough money! %.2f lv needed.", tripCost - income);
         }
     }
 }

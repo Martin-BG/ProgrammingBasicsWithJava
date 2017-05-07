@@ -16,22 +16,30 @@ public class Ex04FootballLeague {
         int sectorV = 0;
         int sectorG = 0;
 
-        for (int i = 0; i < fans; i++)
-        {
+        for (int i = 0; i < fans; i++) {
             switch (scanner.nextLine()) {
-                case "A" : sectorA++; break;
-                case "B" : sectorB++; break;
-                case "V" : sectorV++; break;
-                case "G" : sectorG++; break;
-                default : break;
+                case "A":
+                    sectorA++;
+                    break;
+                case "B":
+                    sectorB++;
+                    break;
+                case "V":
+                    sectorV++;
+                    break;
+                case "G":
+                    sectorG++;
+                    break;
+                default:
+                    break;
             }
         }
 
         double totalFans = sectorA + sectorB + sectorV + sectorG;
-        System.out.printf("%.2f%%%n", sectorA * 100.0d / totalFans );
-        System.out.printf("%.2f%%%n", sectorB * 100.0d / totalFans );
-        System.out.printf("%.2f%%%n", sectorV * 100.0d / totalFans );
-        System.out.printf("%.2f%%%n", sectorG * 100.0d / totalFans );
-        System.out.printf("%.2f%%%n", totalFans * 100.0d / capacity );
+        System.out.printf("%.2f%%%n", sectorA * 100.0d / totalFans);
+        System.out.printf("%.2f%%%n", sectorB * 100.0d / totalFans);
+        System.out.printf("%.2f%%%n", sectorV * 100.0d / totalFans);
+        System.out.printf("%.2f%%%n", sectorG * 100.0d / totalFans);
+        System.out.printf("%.2f%%%n", totalFans * 100.0d / capacity);
     }
 }

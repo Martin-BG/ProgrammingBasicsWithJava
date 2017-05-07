@@ -8,18 +8,18 @@ import java.util.Scanner;
 public class Ex01AlcoholMarket {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double whiskey_price = Double.parseDouble(scanner.nextLine());
-        double rakia_price = whiskey_price * 0.5d;
-        double whine_price = rakia_price * 0.6d;
-        double beer_price = rakia_price * 0.2d;
-        double beer_amount = Double.parseDouble(scanner.nextLine());
-        double whine_amount = Double.parseDouble(scanner.nextLine());
-        double rakia_amount = Double.parseDouble(scanner.nextLine());
+        double whiskeyPrice = Double.parseDouble(scanner.nextLine());
+        double rakiaPrice = whiskeyPrice * 0.5d;
+        double whinePrice = rakiaPrice * 0.6d;
+        double beerPrice = rakiaPrice * 0.2d;
+        double beerAmount = Double.parseDouble(scanner.nextLine());
+        double whineAmount = Double.parseDouble(scanner.nextLine());
+        double rakiaAmount = Double.parseDouble(scanner.nextLine());
         double whiskey_amount = Double.parseDouble(scanner.nextLine());
 
-        double total_cost = whiskey_amount * whiskey_price + rakia_amount * rakia_price
-                + whine_amount * whine_price + beer_amount * beer_price;
+        double totalCost = whiskey_amount * whiskeyPrice + rakiaAmount * rakiaPrice
+                + whineAmount * whinePrice + beerAmount * beerPrice;
 
-        System.out.printf("%.2f", total_cost);
+        System.out.printf("%.2f", totalCost);
     }
 }

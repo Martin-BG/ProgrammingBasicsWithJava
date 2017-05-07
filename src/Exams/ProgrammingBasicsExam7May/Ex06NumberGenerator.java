@@ -9,7 +9,6 @@ public class Ex06NumberGenerator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int goal = 111;
         int M = Integer.parseInt(scanner.nextLine());
         int N = Integer.parseInt(scanner.nextLine());
         int L = Integer.parseInt(scanner.nextLine());
