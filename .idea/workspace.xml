@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="672a1e07-f18f-4435-8899-9124fe0c13ae" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,21 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pr01GrapeAndRakia.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Pr01GrapeAndRakia.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Exam19March2017Evening/Pr01GrapeAndRakia.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
               <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profiles_settings.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -611,12 +600,20 @@
       <workItem from="1500250780605" duration="20000" />
       <workItem from="1501022497127" duration="222000" />
       <workItem from="1501022888167" duration="86000" />
-      <workItem from="1512173703015" duration="139000" />
+      <workItem from="1512173703015" duration="203000" />
     </task>
+    <task id="LOCAL-00001" summary="config">
+      <created>1512173876667</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1512173876667</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1787000" />
+    <option name="totallyTimeSpent" value="1851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1932" height="1064" extended-state="0" />
@@ -657,6 +654,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="config" />
+    <option name="LAST_COMMIT_MESSAGE" value="config" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -749,18 +750,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exam19March2017Evening/Pr01GrapeAndRakia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exam19March2017Evening/Pr01GrapeAndRakia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
